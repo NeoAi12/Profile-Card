@@ -1,0 +1,80 @@
+/******************************************************** Tag  Selectors**************************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1.125rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 45vw bottom 25vh, left 45vh top 40vh;
+}
+h1 {
+    
+}
+h2 {
+   color: hsl(229, 23%, 23%);
+   font-size: 1.125rem;
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+span {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+p {
+    color: hsl(227, 10%, 46%);
+    font-size: 13px;
+}
+/********************************************************Class Selectors**************************************************/
+.container {
+    padding-left: 500px;
+    margin: auto;
+    text-align: center;
+}
+.wrapper {
+    max-width: 420px;
+    background-color: #fff;
+    border-radius: 15px; 
+    overflow: hidden;
+    margin: 1rem;
+}
+.profile-pic {
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: -52px;
+    margin-bottom: 20px;
+}
+.content {
+  
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid hsla(227, 10%, 46%, 0.2);
+    padding: 25px 50px;
+    margin-top: 20px;
+}
+.num {
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: hsl(229, 23%, 23%);
+    margin-bottom: 5px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
